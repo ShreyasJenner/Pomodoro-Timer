@@ -1,10 +1,10 @@
 //working pomodoro timer with support for audio
-//only problem is that prompt after the timer is over doesn't print immediately
-//support for quitting app with keyboard press needs to be created
+//both mp3 and wav files supported
+//support for quitting program with keyboard or pausing timer is not present
 
 #include <iostream>
-#include <unistd.h>		//to call sleep
-#include "Python.h"
+#include <unistd.h>		
+#include "Python.h"		
 
 int main()
 {
@@ -34,8 +34,8 @@ int main()
 	std::cout << '\r';	
 
 	Py_Initialize();
-	FILE* file = fopen("/home/god/code/pomodoro/pomo/test.py", "r");
-	PyRun_SimpleFile(file, "/home/god/code/pomodoro/pomo/test.py");
+	FILE* file = fopen("file_path_of_python_file", "r");
+	PyRun_SimpleFile(file, "file_path_of_python_file");
 	
 	Py_Finalize();	
 	return 0;
