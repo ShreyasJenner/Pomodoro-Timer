@@ -1,14 +1,5 @@
 # Pomodoro-Timer
 
-
-
-
-
-
-Terminal based pomodoro timer </br>
-.wav file has been provided but any mp3 or wav file can be used as per user choice </br>
-It is preferable to place all code files and sound file within one folder
-
 ## Table of Contents
 1. [Description](#description)
 2. [Installation and Run](#installation-and-run)
@@ -18,7 +9,9 @@ It is preferable to place all code files and sound file within one folder
 
 ## Description
 The Pomodoro Technique is a time management technique for students,
-perfectionists and procastinators of all kinds.
+perfectionists and procastinators of all kinds. With a lack of terminal based
+pomodoro timers, this project attempts to create a unique, intuitive 
+yet feature filled pomodoro-timer which can run flawlessly in a bash terminal.
 
 
 ## Installation and Run
